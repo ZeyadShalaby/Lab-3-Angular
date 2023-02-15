@@ -1,0 +1,15 @@
+<div class = "form-control">
+    <div class="table">
+        <div class="row">
+            <p>Name</p>
+            <p>Age</p>
+        </div>
+
+            <div class ="row" *ngFor="let s of getStudents">
+                <p>{{ s.name }}</p>
+                <p>{{ s.age }}</p>
+
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<div class="form-control">
+    <input type="text"
+    placeholder="Student Name"
+    name="name"
+    [(ngModel)]="name">
+    <p>Name must at least have 3 characters</p>
+
+    <input type="text"
+    placeholder="Age"
+    [(ngModel)]="age">
+    <p>Age must be between 20 and 40 years.</p>
+
+
+
+</div>
+
+<input type="button"
+class="btn"
+value="Add Student"
+(click)="add()">
